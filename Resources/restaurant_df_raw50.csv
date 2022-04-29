@@ -1,0 +1,51 @@
+,name,phone,address,category_alias,category_title,rating,review_count,is_closed,lat,lon
+0,Denver Biscuit Co.,+13033777900,"3237 E Colfax Ave  Denver, CO 80206","sandwiches, breakfast_brunch, ","Sandwiches, Breakfast & Brunch, ",4.5,4103,False,39.740384,-104.949098
+1,"Snooze, an A.M. Eatery",+13032970700,"2262 Larimer St  Denver, CO 80205","breakfast_brunch, sandwiches, tradamerican, ","Breakfast & Brunch, Sandwiches, American (Traditional), ",4.5,4505,False,39.75544,-104.98883
+2,Root Down,+13039934200,"1600 W 33rd Ave  Denver, CO 80211","newamerican, vegan, vegetarian, ","American (New), Vegan, Vegetarian, ",4.5,3547,False,39.76306,-105.0056
+3,Work & Class,+13032920700,"2500 Larimer St  Ste 101  Denver, CO 80205","newamerican, latin, cocktailbars, ","American (New), Latin American, Cocktail Bars, ",4.5,1556,False,39.75761,-104.98604
+4,Safta,+17204082444,"3330 Brighton Blvd  Ste 201  Denver, CO 80216","mideastern, mediterranean, burgers, ","Middle Eastern, Mediterranean, Burgers, ",4.5,547,False,39.76862,-104.979578
+5,Rioja,+13038202282,"1431 Larimer St  Denver, CO 80202","newamerican, spanish, bars, ","American (New), Spanish, Bars, ",4.5,2443,False,39.7478083125095,-104.999331349925
+6,Linger,+13039933120,"2030 W 30th Ave  Denver, CO 80211","asianfusion, breakfast_brunch, bars, ","Asian Fusion, Breakfast & Brunch, Bars, ",4.0,3597,False,39.75954,-105.01139
+7,Guard and Grace,+13032938500,"1801 California St  Denver, CO 80202","steak, wine_bars, seafood, ","Steakhouses, Wine Bars, Seafood, ",4.5,1351,False,39.7476811908831,-104.989654496312
+8,Chop Shop Casual Urban Eatery Colfax,+17205507665,"4990 E Colfax Ave  Denver, CO 80220","newamerican, burgers, salad, ","American (New), Burgers, Salad, ",4.5,1132,False,39.73987,-104.92935
+9,Biker Jim's Gourmet Dogs,+17207469355,"2148 Larimer St  Denver, CO 80205","hotdog, ","Hot Dogs, ",4.5,1355,False,39.754394,-104.990215
+10,Steuben's Uptown,+13038301001,"523 E 17th Ave  Denver, CO 80203","diners, breakfast_brunch, cocktailbars, ","Diners, Breakfast & Brunch, Cocktail Bars, ",4.0,2959,False,39.74349,-104.98017
+11,Black Shirt Brewing,+13039932799,"3719 Walnut St  Denver, CO 80205","breweries, pizza, musicvenues, ","Breweries, Pizza, Music Venues, ",4.5,375,False,39.7697672895761,-104.972935177909
+12,Four Friends Kitchen,+13033888299,"2893 Roslyn St  Denver, CO 80238","southern, breakfast_brunch, ","Southern, Breakfast & Brunch, ",4.5,1416,False,39.7574776411057,-104.900571629405
+13,Rivers and Roads Coffee,+13033213052,"2539 E Bruce Randolph Ave  Denver, CO 80205","coffee, breakfast_brunch, gluten_free, ","Coffee & Tea, Breakfast & Brunch, Gluten-Free, ",4.5,219,False,39.764677,-104.956443
+14,Fish N Beer,+13032483497,"3510 Larimer St  Denver, CO 80205","seafood, cocktailbars, ","Seafood, Cocktail Bars, ",4.5,304,False,39.76697,-104.97395
+15,Crema Coffee House,,"2862 Larimer St  Unit B  Denver, CO 80205","coffee, breakfast_brunch, cafes, ","Coffee & Tea, Breakfast & Brunch, Cafes, ",4.5,626,False,39.76117,-104.98174
+16,WaterCourse Foods,+13038327313,"837 E 17th Ave  Denver, CO 80218","vegetarian, vegan, comfortfood, ","Vegetarian, Vegan, Comfort Food, ",4.0,2240,False,39.743566,-104.976669
+17,"Snooze, an A.M. Eatery",+13037366200,"700 N Colorado Blvd  Ste A  Denver, CO 80206","breakfast_brunch, sandwiches, tradamerican, ","Breakfast & Brunch, Sandwiches, American (Traditional), ",4.0,1912,False,39.7275615225745,-104.940446262566
+18,Barcelona Wine Bar RiNo,+13038163300,"2900 Larimer St  Denver, CO 80205","tapasmallplates, wine_bars, spanish, ","Tapas/Small Plates, Wine Bars, Spanish, ",4.5,681,False,39.76129,-104.9813
+19,Sam's No 3 - Downtown,+13035341927,"1500 Curtis St  Denver, CO 80202","breakfast_brunch, tradamerican, ","Breakfast & Brunch, American (Traditional), ",4.0,2332,False,39.7462,-104.99559
+20,The Denver Central Market,,"2669 Larimer St  Denver, CO 80205","bakeries, meats, food_court, ","Bakeries, Meat Shops, Food Court, ",4.5,467,False,39.75949,-104.98465
+21,"Snooze, an A.M. Eatery",+13038253536,"1701 Wynkoop St  Ste 150  Denver, CO 80202","breakfast_brunch, sandwiches, tradamerican, ","Breakfast & Brunch, Sandwiches, American (Traditional), ",4.5,1271,False,39.7534172798151,-104.999892472353
+22,Cafe Miriam,+17203259027,"2217 E 21st Ave  Denver, CO 80205","breakfast_brunch, creperies, moroccan, ","Breakfast & Brunch, Creperies, Moroccan, ",5.0,235,False,39.7483556470418,-104.960353469231
+23,Uchi,+13034441922,"2500 Lawrence St  Denver, CO 80205","japanese, seafood, sushi, ","Japanese, Seafood, Sushi Bars, ",4.5,567,False,39.75697316292054,-104.98518534430694
+24,Marco's Coal Fired-Ballpark,+13032967000,"2129 Larimer St  Denver, CO 80205","pizza, italian, beerbar, ","Pizza, Italian, Beer Bar, ",4.0,1290,False,39.75452,-104.99106
+25,Mercantile Dining & Provision,+17204603733,"1701 Wynkoop St  Ste 155  Denver, CO 80202","newamerican, ","American (New), ",4.5,1196,False,39.7536149959513,-104.999776429002
+26,The Plimoth,+13032971215,"2335 E 28th Ave  Denver, CO 80205","italian, french, newamerican, ","Italian, French, American (New), ",4.5,335,False,39.7571433867367,-104.958879160049
+27,Butcher Block Cafe,+13032952915,"1701 38th St  Denver, CO 80216","breakfast_brunch, diners, tradamerican, ","Breakfast & Brunch, Diners, American (Traditional), ",4.5,370,False,39.772591,-104.974634
+28,Angelo’s Taverna,+13037443366,"620 E 6th Ave  Denver, CO 80203","italian, seafood, bars, ","Italian, Seafood, Bars, ",4.5,1344,False,39.725523,-104.979224
+29,Osteria Marco,+13035345855,"1453 Larimer St  Denver, CO 80202","italian, pizza, bars, ","Italian, Pizza, Bars, ",4.0,1661,False,39.74819,-104.99897
+30,Birdcall,+17203612976,"800 E 26th Ave  Denver, CO 80205","chickenshop, sandwiches, ","Chicken Shop, Sandwiches, ",4.5,454,False,39.75444,-104.97662
+31,Onefold,+13039540877,"1420 E 18th Ave  Denver, CO 80218","breakfast_brunch, cafes, ","Breakfast & Brunch, Cafes, ",4.5,832,False,39.744667,-104.969325
+32,City O' City,+13038316443,"206 E 13th Ave  Denver, CO 80203","breakfast_brunch, vegan, tradamerican, ","Breakfast & Brunch, Vegan, American (Traditional), ",4.0,2352,False,39.7367226482267,-104.984684393258
+33,5280 Burger Bar - Denver,+13038251020,"500 16th St  Ste 160  Denver, CO 80202","burgers, tradamerican, sportsbars, ","Burgers, American (Traditional), Sports Bars, ",4.0,1716,False,39.74388,-104.99082
+34,Ophelia's Electric Soapbox,+13039938023,"1215 20th St  Denver, CO 80202","bars, breakfast_brunch, venues, ","Bars, Breakfast & Brunch, Venues & Event Spaces, ",4.5,983,False,39.752632179521115,-104.99197956441787
+35,Nola Voodoo Tavern,+17203899544,"2231 E Bruce Randolph  Denver, CO 80205","cafes, bars, seafood, ","Cafes, Bars, Seafood, ",4.5,239,False,39.764695,-104.960311
+36,Nocturne,+13032953333,"1330 27th St  Denver, CO 80205","jazzandblues, newamerican, cocktailbars, ","Jazz & Blues, American (New), Cocktail Bars, ",4.5,301,False,39.7595901,-104.9845123
+37,Panzano,+13032963525,"909 17th St  Denver, CO 80202","italian, bars, breakfast_brunch, ","Italian, Bars, Breakfast & Brunch, ",4.5,1081,False,39.747833,-104.992822
+38,Denver Biscuit Company,+13033777900,"2501 Dallas St  Aurora, CO 80010","sandwiches, pizza, cocktailbars, ","Sandwiches, Pizza, Cocktail Bars, ",4.5,1056,False,39.75223,-104.87738
+39,Cart-Driver,+13032923553,"2500 Larimer St  Ste 100  Denver, CO 80205","pizza, italian, bars, ","Pizza, Italian, Bars, ",4.5,531,False,39.7575443618608,-104.98618460866
+40,Cherry Cricket,+13033227666,"2641 E 2nd Ave  Denver, CO 80206","burgers, sportsbars, newamerican, ","Burgers, Sports Bars, American (New), ",4.0,2741,False,39.7196942925966,-104.956333474869
+41,Yahya's Mediterranean Grill & Pastries,+17205328746,"2207 E Colfax Ave  Denver, CO 80206","mediterranean, mideastern, greek, ","Mediterranean, Middle Eastern, Greek, ",4.5,475,False,39.740169467754185,-104.9607666
+42,Rosenberg's Bagels & Delicatessen,+17204409880,"725 E 26th Ave  Denver, CO 80205","delis, bagels, breakfast_brunch, ","Delis, Bagels, Breakfast & Brunch, ",4.0,898,False,39.75476,-104.97734
+43,Jax Fish House LoDo,+13032925767,"1539 17th St  Denver, CO 80202","seafood, cajun, newamerican, ","Seafood, Cajun/Creole, American (New), ",4.5,1031,False,39.7521259302617,-104.998515626984
+44,Prodigy Coffeehouse,+17204413187,"3801 E 40th Ave  Denver, CO 80205","coffee, cafes, ","Coffee & Tea, Cafes, ",4.5,146,False,39.77316,-104.94212
+45,Hop Alley,+17203798340,"3500 Larimer St  Denver, CO 80205","chinese, asianfusion, bars, ","Chinese, Asian Fusion, Bars, ",4.0,442,False,39.76702,-104.97418
+46,Postino LoHi,+13034336363,"2715 17th St  Denver, CO 80211","italian, wine_bars, breakfast_brunch, ","Italian, Wine Bars, Breakfast & Brunch, ",4.5,745,False,39.76151,-105.01045
+47,Vine Street Pub & Brewery,+13033882337,"1700 Vine St  Denver, CO 80206","tradamerican, pubs, breweries, ","American (Traditional), Pubs, Breweries, ",4.0,924,False,39.7434,-104.96201
+48,Jelly,+13038316301,"600 E 13th Ave  Denver, CO 80203","newamerican, breakfast_brunch, coffee, ","American (New), Breakfast & Brunch, Coffee & Tea, ",4.0,1768,False,39.7367338,-104.9796458
+49,La Loma | Denver,+13034338300,"1801 Broadway  Unit 116  Denver, CO 80202","mexican, tex-mex, ","Mexican, Tex-Mex, ",4.0,1595,False,39.74493,-104.98781
