@@ -9,7 +9,10 @@ Denver Restaurants and PPP Loan Repayment Risk
 Businesses were hit hard during the Covid-19 pandemic.  The restaurant industry, more than any other industry in the nation, suffered the most significant sales and job losses since the pandemic began. We chose this data to explore how restaurants used Paycheck Protection Program (PPP) loans and whether there loan repayment can be predicted using Machine Learning. Our whole team lives in the city of Denver, so we chose to focus solely on restaurants in the Denver metro area. 
 
 ### Description of our source of data
-We have chosen to explore Denver restaurant data from the Yelp Fusion API and loan data from the Paycheck Protection Program (PPP) managed by the Small Business Administration. 
+We have chosen to explore Denver restaurant data from the Yelp Fusion API and loan data from the Paycheck Protection Program (PPP) managed by the Small Business Administration.
+Sources:
+*  [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/get_started)
+*  [PPP Data](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data) 
 
 ### Questions we hope to answer with the data
 * Can restaurant data and PPP loan data reasonably predict whether a loan will be paid in full or not?
