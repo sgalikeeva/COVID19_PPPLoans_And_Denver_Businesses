@@ -33,3 +33,24 @@ Multiple modes of communication and protocols have been established for Team Yel
 - A Zoom account has been established for team meetings outside of class
 
 - Team meetings will be held at least once a week with flexible scheduling in order to accomodate workload and personal schedules
+
+## Deliverable 2
+- Description of the data exploration phase of the project
+
+- Description of the analysis phase of the project
+
+### Machine Learning Model
+- Description of preliminary data preprocessing
+
+- Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+
+- Description of how data was split into training and testing sets
+
+- Explanation of model choice, including limitations and benefits
+
+### Dashboard
+- Storyboard on a Google Slide(s)
+
+- Description of the tool(s) that will be used to create the final dashboard
+
+- Description of interactive element(s)
