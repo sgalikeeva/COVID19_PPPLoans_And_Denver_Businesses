@@ -41,7 +41,7 @@ Multiple modes of communication and protocols have been established for Team Yel
 
 The Yelp Fusion API has a limit of calling 1000 entries. To increase the amount of data, a zip code parameter was used. The zip code parameter is not strict and pulls a substantial number of duplicates which had to be removed. To ensure that a wide variety of businesses were pulled, category parameters were set for each call as the default is restaurants.
 
-The PPP Loan data from the Small Business Administration had many misspellings in the business name and duplicates due to the same business receiving a PPP loan twice at different times during the pandemic. The business names also included extra characters like LLC, Inc, Corp, commas, periods, etc. A lot of time was spent cleaning the data to ensure the business names would match up when the data was combined. We removed all the extra characters, duplicates and null values. After all the cleaning and removing of duplicats and null values our dataset shrunk from ??? to 1357. 
+The PPP Loan data from the Small Business Administration had many misspellings in the business name. The business names also included extra characters like LLC, Inc, Corp, commas, periods, etc. A lot of time was spent cleaning the data to ensure the business names would match up when the data was combined. We removed all the extra characters and null values. After all the cleaning and removing of duplicats and null values our dataset shrunk from ??? to 1357. 
 
 - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
 
@@ -54,6 +54,6 @@ The PPP Loan data from the Small Business Administration had many misspellings i
 The storyboard is available on Google Slides at this [link](https://docs.google.com/presentation/d/1dWn_G4nov9FRoMqOXes7-a8apl2l8IZGHHXaMj0cDug/edit?usp=sharing).
 
 - Description of the tools that will be used to create the final dashboard
-We will be using Tableau to visual out data.
+We will be using Tableau to visualize our data.
 
 - Description of interactive element
