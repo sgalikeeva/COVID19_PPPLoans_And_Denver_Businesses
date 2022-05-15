@@ -65,3 +65,5 @@ The storyboard is available on Google Slides at this [link](https://docs.google.
 We will be using Tableau to visualize our data.
 
 - Description of interactive element
+
+We have various interactive elements on our Tableau dashboard including a map of businesses and various plots showing size of loan, types of businesses and other features.  Users are able to change views and hover over data points to get additional information from the map and plots. 
