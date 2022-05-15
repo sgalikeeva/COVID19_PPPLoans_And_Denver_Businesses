@@ -13,7 +13,7 @@ Sources:
 *  [PPP Data](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data) 
 
 ## Questions we hope to answer with the data
-* Can restaurant data and PPP loan data reasonably predict whether a loan will be paid in full or not?
+* Can business data and PPP loan data reasonably predict whether a loan will be paid in full or not?
 
 * Do factors like the type of businesses, location, gender of lendee, size of loan or other factors affect loan repayment?
 
