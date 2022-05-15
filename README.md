@@ -36,7 +36,6 @@ We explored multiple data sources as part of our data exploration phase and ulti
 
 The Yelp Fusion API has a limit of calling 1000 entries. To increase the amount of data, a zip code parameter was used. The zip code parameter is not strict and pulls a substantial number of duplicates which had to be removed. To ensure that a wide variety of businesses were pulled, category parameters were set for each call as the default is restaurants.
 
-
 ## Machine Learning Model
 ### Preliminary Data Preprocessing
 After extracting the data from the Yelp Fusion API and the SBA, the data was transformed to the cleanest version it could be. 
@@ -58,9 +57,11 @@ The best model was determined to be random forest classifier due to its high acc
 
 ## Dashboard
 - Storyboard 
+
 The storyboard is available on Google Slides at this [link](https://docs.google.com/presentation/d/1dWn_G4nov9FRoMqOXes7-a8apl2l8IZGHHXaMj0cDug/edit?usp=sharing).
 
 - Description of the tools that will be used to create the final dashboard
+
 We will be using Tableau to visualize our data.
 
 - Description of interactive element
