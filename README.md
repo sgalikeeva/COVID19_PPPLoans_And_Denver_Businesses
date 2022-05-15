@@ -47,7 +47,7 @@ The PPP data initially had nationwide information; this was narrowed down to the
 The two datasets were merged on the business name and our dataset shrunk from 13,029 to 1,357. The merged data was then encoded to prepare for machine learning models. 
 
 ### Preliminary Feature Engineering and Preliminary Feature Selection
-The features needed to be analyzed and determined whether to keep them as part of the dataframe or not. The target (our X) was the loan status, whether it was Paid in Full or granted an Exemption 4. A random forest classifier was used to determine the importance of features in the dataset. From this ranking, it was determined that a few columns were extraneous and were removed. From here, a number machine learning models were run to determine the best model. 
+The features needed to be analyzed and determined whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. A random forest classifier was used to determine the importance of features in the dataset. From this ranking, it was determined that a few columns were extraneous and were removed. From here, a number machine learning models were run to determine the best model. 
 
 ### Training and Testing Sets
 The data was split into training and testing set using train_test_split and a random_state of 1.
