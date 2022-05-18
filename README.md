@@ -62,7 +62,7 @@ The storyboard is available on Google Slides at this [link](https://docs.google.
 
 - Description of the tools that will be used to create the final dashboard
 
-We will be using Tableau to visualize our data.
+We will be using Tableau to [visualize our data](https://public.tableau.com/app/profile/dylan1351/viz/PPPLoanAnalysis/Story1).
 
 - Description of interactive element
 
