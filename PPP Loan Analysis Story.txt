@@ -1,0 +1,11 @@
+PPP Loan Analysis Story: 
+
+Page 1.) Top chart shows each individual business. Color represents the type of business and the size indicates the loan amount. Larger amounts are grouped on the left and sizes
+continue to decrease towards the right. 
+
+The map on the bottom is interactive and allows users to zoom, pan, and click into different businesses. Each circle is an individual business. The color represents business type and size represents loan amount. 
+
+
+Page 2.) Left chart shows loan amount by business type compared side by side. Larger loans are larger circles. Top Right chart shows paid vs. not paid in blue and red, respectively, as well as average yelp rating of each business. 
+Bottom right chart shows total paid and unpaid loans out of the entire dataset
+
