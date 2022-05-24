@@ -48,12 +48,17 @@ The two datasets were merged on the business name and our dataset shrunk from 13
 ### Feature Engineering and Preliminary Feature Selection
 The features needed to be analyzed and determined whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. A random forest classifier was used to determine the importance of features in the dataset. From this ranking, it was determined that a few columns were extraneous and were removed. From here, a number machine learning models were run to determine the best model. 
 
-The random forest classifier ranked the top 5 features as:
+The random forest classifier ranked the top 10 features as:
 1. InitialApprovalAmount
 2. Longitude
 3. Latitude
 4. Yelp Review Count
 5. Jobs Reported
+6. BorrowerZip
+7. Yelp Rating
+8. Term
+9. Year Loan Approved 2020
+10. Year Loan Approved 2021
 
 ### Training and Testing Sets
 The data was split into training and testing set using train_test_split and a random_state of 1. 
@@ -66,7 +71,13 @@ Below is the Confusion Matrix, Accuracy Score and Classification report from our
 ![image of confusion matrix](https://github.com/ereekaj/Final_Project/blob/main/Images/Confustion_matrix.png)
 
 ### Results 
-[WERE QUESTIONS ANSWERED?]
+**Question:** Can business data and PPP loan data reasonably predict whether a loan will be paid in full or not? 
+
+The machine learning model was able to predict loan status with an accuracy of 90.4%; however, the feature importance showed that the yelp data features did not really add much to the machine learning model. Only 2 yelp categories showed up in the top 10 features. That caused us to explore some other aspects of the data. 
+
+**Question:** What were the most important features contributing to our machine learning model? 
+
+As mentioned above, the feature importance showed that the yelp data features did not really add much to the machine learning model. Only 2 yelp categories showed up in the top 10 features. That caused us to explore some other aspects of the data. 
 
 ## Dashboard
 ### Final Presentation
