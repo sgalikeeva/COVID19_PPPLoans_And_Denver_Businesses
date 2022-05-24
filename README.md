@@ -62,21 +62,22 @@ The data was split into training and testing set using train_test_split and a ra
 The best model was determined to be random forest classifier due to its high accuracy at 90.4% and out of all the models that were run it had the highest precision at 33%. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. The benefits of random forest are it is robust against overfitting, can be used to rank the importance of input variables in a natural way and are robust to outliers and nonlinear data.
 
 Below is the Confusion Matrix, Accuracy Score and Classification report from our model. 
+
 ![image of confusion matrix](https://github.com/ereekaj/Final_Project/blob/main/Images/Confustion_matrix.png)
 
 ### Results 
-WERE QUESTIONS ANSWERED?
+[WERE QUESTIONS ANSWERED?]
 
 ## Dashboard
-- Final Presentation
+### Final Presentation
 
 Our final presentation is available on Google Slides at this [link](https://docs.google.com/presentation/d/1dWn_G4nov9FRoMqOXes7-a8apl2l8IZGHHXaMj0cDug/edit?usp=sharing).
 
-- Description of the tools used to create the final dashboard
+### Description of the tools used to create the final dashboard
 
 We used Tableau to [visualize our data](https://public.tableau.com/app/profile/dylan1351/viz/PPPLoanAnalysis/Story1).
 
-- Description of interactive element
+### Description of interactive element
 
 We have various interactive elements on our Tableau dashboard including a map of businesses and various plots showing size of loan, types of businesses and other features.  Users are able to change views and hover over data points to get additional information from the map and plots. 
 
