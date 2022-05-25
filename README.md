@@ -4,7 +4,7 @@
 Denver Businesses and PPP Loan Repayment Risk
 
 ## Reason why we selected the topic 
-Businesses were hit hard during the COVID-19 pandemic. Many industries suffered significant sales and job losses since the pandemic began. [INSERT STAT ABOUT BUSINESSES OR RESTAURANTS IN DENVER]. We chose to explore yelp data on business that used Paycheck Protection Program (PPP) loans. Our whole team lives in Denver, CO so we chose to focus solely on businesses in the Denver metro area.
+Businesses were hit hard during the COVID-19 pandemic. Many industries suffered significant sales and job losses since the pandemic began. According to the [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts), Colorado alone reported a job loss of 4.6% or 128,500 jobs by mid 2020. We chose to explore yelp data on business that used Paycheck Protection Program (PPP) loans. Our whole team lives in Denver, CO so we chose to focus solely on businesses in the Denver metro area.
 
 ## Description of our source of data
 We chose to explore Denver business data from the Yelp Fusion API and loan data from the Paycheck Protection Program (PPP) managed by the Small Business Administration (SBA).
@@ -31,7 +31,7 @@ The following technologies, languages, and tools were used throughout the projec
 * new question
 
 ## Data Exploration & Analysis Phase
-We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data from Yelp, but we expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data from Yelp were: fashion, financial services, health, professional services, real estate, restaurant, salon and transportation. 
+We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data because it seemed like the hospitality industry was one of the hardest hit.  The [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts) reported that the leisure & hospitality sector in Denver lost 22.3% of jobs in 2020. Unfortunately, the restaurant dataset was too small after combining with the PPP loan data set. We then expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data from Yelp were: fashion, financial services, health, professional services, real estate, restaurant, salon and transportation. 
 
 The Yelp Fusion API has a limit of calling 1000 entries. To increase the amount of data, a zip code parameter was used. The zip code parameter is not strict and pulls a substantial number of duplicates which had to be removed. To ensure that a wide variety of businesses were pulled, category parameters were set for each call as the default is restaurants.
 
@@ -46,7 +46,7 @@ The PPP data initially had nationwide information; this was narrowed down to the
 The two datasets were merged on the business name and our dataset shrunk from 13,029 to 1,357. The merged data was then encoded to prepare for machine learning models. 
 
 ### Feature Engineering and Preliminary Feature Selection
-The features needed to be analyzed and determined whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. A random forest classifier was used to determine the importance of features in the dataset. From this ranking, it was determined that a few columns were extraneous and were removed. From here, a number machine learning models were run to determine the best model. 
+The features were analyzed using the random forest classifier and we determined as a group whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. We eliminated features like Loan Forgiveness Amount because that column was too closely related to the target. We also eliminated demographic data but the majority of the rows were null values in those columns. From here, a number machine learning models were run to determine the best model. 
 
 The random forest classifier ranked the top 10 features as:
 1. InitialApprovalAmount
@@ -78,6 +78,8 @@ The machine learning model was able to predict loan status with an accuracy of 9
 **Question:** What were the most important features contributing to our machine learning model? 
 
 As mentioned above, the feature importance showed that the yelp data features did not really add much to the machine learning model. Only 2 yelp categories showed up in the top 10 features. That caused us to explore some other aspects of the data. 
+
+**Question:** [ADD ADDITIONAL QUESTIONS]
 
 ## Dashboard
 ### Final Presentation
