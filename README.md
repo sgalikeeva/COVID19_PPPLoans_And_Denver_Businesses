@@ -87,7 +87,7 @@ Below is the Confusion Matrix, Accuracy Score and Classification report from our
 ![image of confusion matrix](https://github.com/ereekaj/Final_Project/blob/main/Images/Confustion_matrix.png)
 
 ## Further Analysis
-While exploring the data and beginning to put together our visualizations, we were suprised to find that Professional Services accounted for a large amount of the loans granted in Denver. Our analysis showed the following:
+While exploring the data and beginning to create our visualizations, we were suprised to find that Professional Services accounted for a large amount of the loans granted in Denver. Our analysis showed the following:
 
 * Professional services account for 39.92% of the PPP loans
 
