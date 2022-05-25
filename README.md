@@ -7,7 +7,7 @@ Denver Businesses and PPP Loan Repayment Risk
 Businesses were hit hard during the COVID-19 pandemic. Many industries suffered significant sales and job losses since the pandemic began. According to the [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts), Colorado alone reported a job loss of 4.6% or 128,500 jobs by mid 2020. We chose to explore yelp data on business that used Paycheck Protection Program (PPP) loans. Our whole team lives in Denver, CO so we chose to focus solely on businesses in the Denver metro area.
 
 ## Description of our source of data
-We chose to explore Denver business data from the Yelp Fusion API and loan data from the Paycheck Protection Program (PPP) managed by the Small Business Administration (SBA).
+We explored Denver business data from the Yelp Fusion API and loan data from the Paycheck Protection Program (PPP) managed by the Small Business Administration (SBA).
 Sources:
 *  [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/get_started)
 *  [PPP Data](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data) 
@@ -29,7 +29,15 @@ The following technologies, languages, and tools were used throughout the projec
 * Why was the professional services industry granted the largest amount of PPP loans in our dataset?
 
 ## Data Exploration & Analysis Phase
-We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data because it seemed like the hospitality industry was one of the hardest hit.  The [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts) reported that the leisure & hospitality sector in Denver lost 22.3% of jobs in 2020. Unfortunately, the restaurant dataset was too small after combining with the PPP loan data set. We then expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data from Yelp were: fashion, financial services, health, professional services, real estate, restaurant, salon and transportation. 
+We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data because it seemed like the hospitality industry was one of the hardest hit.  The [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts) reported that the leisure & hospitality sector in Denver lost 22.3% of jobs in 2020. Unfortunately, the restaurant dataset was too small after combining with the PPP loan data set. We then expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data from Yelp were: 
+* fashion
+* financial services
+* health
+* professional services
+* real estate
+* restaurants
+* salons 
+* transportation. 
 
 The Yelp Fusion API has a limit of calling 1000 entries. To increase the amount of data, a zip code parameter was used. The zip code parameter is not strict and pulls a substantial number of duplicates which had to be removed. To ensure that a wide variety of businesses were pulled, category parameters were set for each call as the default is restaurants.
 
@@ -44,7 +52,17 @@ The PPP data initially had nationwide information; this was narrowed down to the
 The two datasets were merged on the business name and our dataset shrunk from 13,029 to 1,357. The merged data was then encoded to prepare for machine learning models. 
 
 ### Feature Engineering and Preliminary Feature Selection
-The features were analyzed using the random forest classifier and we determined as a group whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. We eliminated features like Loan Forgiveness Amount because that column was too closely related to the target. We also eliminated demographic data but the majority of the rows were null values in those columns. From here, a number machine learning models were run to determine the best model. 
+The features were analyzed using the random forest classifier and we determined as a group whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. We eliminated features like Loan Forgiveness Amount because that column was too closely related to the target. We also eliminated demographic data because the majority of the rows were null values in those columns. From here, a number machine learning models were run to determine the best model including the following: 
+* Logistic Regression
+* Random Over Sampler
+* SMOTE
+* Cluster Centroids
+* SMOTEENN
+* Decision Tree Classifier
+* Support Vector Machine
+* Random Forest Classifier
+* Easy Ensemble
+* Balanced Random Forest  
 
 The random forest classifier ranked the top 10 features as:
 1. InitialApprovalAmount
