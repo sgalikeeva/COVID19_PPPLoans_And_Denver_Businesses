@@ -28,8 +28,6 @@ The following technologies, languages, and tools were used throughout the projec
 
 * Why was the professional services industry granted the largest amount of PPP loans in our dataset?
 
-* [OTHER QUESTIONS?]
-
 ## Data Exploration & Analysis Phase
 We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data because it seemed like the hospitality industry was one of the hardest hit.  The [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts) reported that the leisure & hospitality sector in Denver lost 22.3% of jobs in 2020. Unfortunately, the restaurant dataset was too small after combining with the PPP loan data set. We then expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data from Yelp were: fashion, financial services, health, professional services, real estate, restaurant, salon and transportation. 
 
