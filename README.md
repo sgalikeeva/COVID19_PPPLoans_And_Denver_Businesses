@@ -100,7 +100,7 @@ As mentioned above, the feature importance showed that the yelp data features di
 
 **Question:** Why was the professional services industry granted the largest amount of PPP loans in our dataset?
 
-It was surprising to find that professional services accounted for the highest amount of loan dollars, but further research showed that this was not unique to Denver. Our research showed that business and professional services firms borrowed more PPP loans than all but four segments of the U.S. economy. According to this [article](https://realeconomy.rsmus.com/ppp-loan-data-business-professional-services), "Industry executives took advantage of federal assistance in an effort to maintain their capabilities and client relationships by retaining their people."
+It was surprising to find that professional services accounted for the highest amount of loan dollars, but further research showed that this was not unique to Denver. Our research showed that business and professional services firms across the country borrowed more PPP loans than all but four segments of the U.S. economy. According to this [article](https://realeconomy.rsmus.com/ppp-loan-data-business-professional-services), "Industry executives took advantage of federal assistance in an effort to maintain their capabilities and client relationships by retaining their people."
 
 ### Lessons Learned
 [ADD ANSWER]
