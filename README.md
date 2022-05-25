@@ -81,6 +81,10 @@ As mentioned above, the feature importance showed that the yelp data features di
 
 **Question:** [ADD ADDITIONAL QUESTIONS]
 
+### Lessons Learned
+
+### Future Analysis
+
 ## Dashboard
 ### Final Presentation
 
