@@ -68,6 +68,27 @@ Below is the Confusion Matrix, Accuracy Score and Classification report from our
 
 ![image of confusion matrix](https://github.com/ereekaj/Final_Project/blob/main/Images/Confustion_matrix.png)
 
+## Further Analysis
+While exploring the data and beginning to put together our visualizations, we were suprised to find that Professional Services accounted for a large amount of the loans granted in Denver. Our analysis showed the following:
+
+* Professional services account for 39.92% of the PPP loans
+
+* Nationwide: 10% of all PPP loans were for professional services firms
+
+* Denver area: 17% of all PPP loans were for professional services firms
+
+* Employment agencies accounted for 35.45% of professional services loans
+
+* Law firms accounted for 34.87% professional services loans
+
+* Average PPP loan of entire dataset: $139,597
+
+* Average PPP loan of professional  services: $234,831
+
+* Average PPP loan  of employment agencies: $1,340,443
+
+* Average PPP loan of law firms: $198,223
+
 ### Results 
 **Question:** Can business data and PPP loan data reasonably predict whether a loan will be paid in full or not? 
 
@@ -79,10 +100,11 @@ As mentioned above, the feature importance showed that the yelp data features di
 
 **Question:** Why was the professional services industry granted the largest amount of PPP loans in our dataset?
 
-[ADD ANSWER]
+It was surprising to find that professional services accounted for the highest amount of loan dollars, but further research showed that this was not unique to Denver. Our research showed that business and professional services firms borrowed more PPP loans than all but four segments of the U.S. economy. According to this [article](https://realeconomy.rsmus.com/ppp-loan-data-business-professional-services), "Industry executives took advantage of federal assistance in an effort to maintain their capabilities and client relationships by retaining their people."
 
 ### Lessons Learned
 [ADD ANSWER]
+Machine learning is not the end all be all. It did not tell us the full data story.  For example, our ML model did not show category as being an important feature, but our visualization showed a much different picture. 
 
 ### Future Analysis
 [ADD ANSWER]
