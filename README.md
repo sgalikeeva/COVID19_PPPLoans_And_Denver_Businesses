@@ -26,7 +26,7 @@ The following technologies, languages, and tools were used throughout the projec
 
 * What were the most important features contributing to our machine learning model? 
 
-* new question
+* Why was the professional services industry granted the largest amount of PPP loans in our dataset?
 
 * new question
 
@@ -96,6 +96,12 @@ We used Tableau to [visualize our data](https://public.tableau.com/app/profile/d
 
 ### Description of interactive element
 
-We have various interactive elements on our Tableau dashboard including a map of businesses and various plots showing size of loan, types of businesses and other features.  Users are able to change views and hover over data points to get additional information from the map and plots. 
+We have various interactive elements on our Tableau dashboard including a map of businesses and various plots showing size of loan, types of businesses and other features.  Users are able to change views and hover over data points to get additional information from the map and plots. Click on the [tableau link](https://public.tableau.com/app/profile/dylan1351/viz/PPPLoanAnalysis/Story1) to see the dashboard in action or refer to the screenshots below.
 
-[INSERT SCREENSHOTS OF DASHBOARD]
+Loan Amount by Business 
+
+![Loan Amount by Business](https://github.com/ereekaj/Final_Project/blob/main/Images/LoanAmtByBusiness.png)
+
+![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/LoansByLocationMap.png)
+
+![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
