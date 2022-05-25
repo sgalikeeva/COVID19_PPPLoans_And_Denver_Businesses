@@ -105,6 +105,7 @@ Loan Amount by Business
 ![Loan Amount by Business](https://github.com/ereekaj/Final_Project/blob/main/Images/LoanAmtByBusiness.png)
 
 Map of loans by location and size
+
 ![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/LoansByLocationMap.png)
 
 Plots by industry
