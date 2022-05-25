@@ -81,7 +81,7 @@ As mentioned above, the feature importance showed that the yelp data features di
 
 **Question:** Why was the professional services industry granted the largest amount of PPP loans in our dataset?
 
-
+[ADD ANSWER]
 
 ### Lessons Learned
 
@@ -104,6 +104,8 @@ Loan Amount by Business
 
 ![Loan Amount by Business](https://github.com/ereekaj/Final_Project/blob/main/Images/LoanAmtByBusiness.png)
 
+Map of loans by location and size
 ![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/LoansByLocationMap.png)
 
+Plots by industry
 ![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
