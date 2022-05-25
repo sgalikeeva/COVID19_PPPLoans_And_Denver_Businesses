@@ -18,7 +18,7 @@ The following technologies, languages, and tools were used throughout the projec
 * Pandas
 * NumPy
 * Anaconda/Jupyter Notebook
-* SkiKit Learn
+* SciKit Learn
 * Tableau
 
 ## Questions we hope to answer with the data
