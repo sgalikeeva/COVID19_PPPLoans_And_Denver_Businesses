@@ -89,6 +89,10 @@ While exploring the data and beginning to put together our visualizations, we we
 
 * Average PPP loan of law firms: $198,223
 
+The graphs below show these stats in action.  The graph on the left shows that  the professional services industry did receive the highest amount of loans
+despite not receiving the most loans (graph on the right).
+![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
+
 ### Results 
 **Question:** Can business data and PPP loan data reasonably predict whether a loan will be paid in full or not? 
 
