@@ -64,7 +64,7 @@ The random forest classifier ranked the top 10 features as:
 The data was split into training and testing set using train_test_split and a random_state of 1. 
 
 ### Model Choice and Confusion matrix
-The best model was determined to be random forest classifier due to its high accuracy at 90.4% and out of all the models that were run it had the highest precision at 33%. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. The benefits of random forest are it is robust against overfitting, can be used to rank the importance of input variables in a natural way and are robust to outliers and nonlinear data.
+The best model was determined to be random forest classifier due to its high accuracy at 90.4% and out of all the models that were run it had the highest precision at 33%. We looked at the precision of the exempted loans because we wanted to limit the false positives. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. The benefits of random forest are it is robust against overfitting, can be used to rank the importance of input variables in a natural way and are robust to outliers and nonlinear data.
 
 Below is the Confusion Matrix, Accuracy Score and Classification report from our model. 
 
