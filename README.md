@@ -1,10 +1,10 @@
-# Denver Businesses and PPP Loan Repayment Risk
+# Denver Businesses and PPP Loans
 
 ## Selected topic
-Denver Businesses and PPP Loan Repayment Risk
+Denver Businesses and PPP Loans
 
 ## Reason why we selected the topic 
-Businesses were hit hard during the COVID-19 pandemic. Many industries suffered significant sales and job losses since the pandemic began. According to the [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts), Colorado alone reported a job loss of 4.6% or 128,500 jobs by mid 2020. We chose to explore yelp data on business that used Paycheck Protection Program (PPP) loans. Our whole team lives in Denver, CO so we chose to focus solely on businesses in the Denver metro area.
+Businesses were hit hard during the COVID-19 pandemic. Many industries suffered significant sales and job losses since the pandemic began. According to the [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts), Colorado alone reported a job loss of 4.6% or 128,500 jobs by mid 2020. We chose to explore Yelp data on businesses that used Paycheck Protection Program (PPP) loans. Our whole team lives in Denver, CO so we chose to focus solely on businesses in the Denver metro area.
 
 ## Description of our source of data
 We explored Denver business data from the Yelp Fusion API and loan data from the Paycheck Protection Program (PPP) managed by the Small Business Administration (SBA).
@@ -16,20 +16,19 @@ Sources:
 The following technologies, languages, and tools were used throughout the project:
 * Python
 * Pandas
-* NumPy
 * Anaconda/Jupyter Notebook
 * SciKit Learn
 * Tableau
 
 ## Questions we hope to answer with the data
-* Can business data and PPP loan data reasonably predict whether a loan will be paid in full or not?
+* Can Yelp data and PPP loan data reasonably predict whether a business is in good standing and satisfies the terms of its loan?
 
 * What were the most important features contributing to our machine learning model? 
 
-* Why was the professional services industry granted the largest amount of PPP loans in our dataset?
+* Why was the professional services industry granted the largest amount of PPP loans in our dataset? What are the implications of this?
 
 ## Data Exploration & Analysis Phase
-We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data because it seemed like the hospitality industry was one of the hardest hit.  The [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts) reported that the leisure & hospitality sector in Denver lost 22.3% of jobs in 2020. Unfortunately, the restaurant dataset was too small after combining with the PPP loan data set. We then expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data from Yelp were: 
+We explored multiple data sources as part of our data exploration phase and ultimately settled on using the Yelp Fusion API and the Small Business Administration’s (SBA) Paycheck Protection Program (PPP) loan data. Our initial intent was to only use Denver restaurant data because it seemed like the hospitality industry was one of the hardest hit.  The [Colorado Business Economic Outlook report](https://www.colorado.edu/today/2020/08/13/colorado-lose-128500-jobs-2020-report-forecasts) reported that the leisure & hospitality sector in Denver lost 22.3% of jobs in 2020. Unfortunately, the restaurant dataset was too small after combining with the PPP loan data set. We then expanded it to include the [top industries of Denver businesses that received PPP loans](https://data.coloradoan.com/paycheck-protection-program-loans/summary/colorado/denver-county/08031/) to increase the amount of data to analyze. The Yelp categories used to pull business data were: 
 * fashion
 * financial services
 * health
@@ -47,12 +46,12 @@ After extracting the data from the Yelp Fusion API and the SBA, the data was tra
 
 The Yelp data was extracted and saved into multiple spreadsheets, depending on the category parameter pulled. A column was added to each spreadsheet signifying the specific category and the spreadsheets were merged into one business dataframe. Duplicates, unneeded columns and null values were removed.
 
-The PPP data initially had nationwide information; this was narrowed down to the Denver area using zip code information. The PPP data had many misspellings in the business name. The business names also included extra characters like LLC, Inc, Corp, commas and periods, etc. The business names were cleaned using regex expressions to ensure the business names would match up when the Yelp data and PPP data was combined. Again, duplicates, unneeded columns and null values were removed. 
+The PPP data initially had nationwide information; this was narrowed down to the City of Denver. The PPP data had many misspellings in the business name. The business names also included extra characters like LLC, Inc, Corp, commas and periods, etc. The business names were cleaned using "replace" expressions to ensure the business names would match up when the Yelp data and PPP data was combined. Again, duplicates, unneeded columns and null values were removed. 
 
 The two datasets were merged on the business name and our dataset shrunk from 13,029 to 1,357. The merged data was then encoded to prepare for machine learning models. 
 
 ### Feature Engineering and Preliminary Feature Selection
-The features were analyzed using the random forest classifier and we determined as a group whether to keep them as part of the dataframe or not. The target (our Y) was the loan status, whether it was Paid in Full or granted an Exemption 4. We eliminated features like Loan Forgiveness Amount because that column was too closely related to the target. We also eliminated demographic data because the majority of the rows were null values in those columns. From here, a number machine learning models were run to determine the best model including the following: 
+The features were analyzed using the random forest classifier and we determined as a group whether to keep them as part of the dataframe. The target (our Y) was the "loan status", whether it was Paid in Full or granted an Exemption 4. We eliminated features like Loan Forgiveness Amount because that column was too closely related to the target. We also eliminated demographic data because the majority of the rows were null values in those columns. From here, a number of machine learning models were run to determine the best model including the following: 
 * Logistic Regression
 * Random Over Sampler
 * SMOTE
@@ -80,7 +79,7 @@ The random forest classifier ranked the top 10 features as:
 The data was split into training and testing set using train_test_split and a random_state of 1. 
 
 ### Model Choice and Confusion matrix
-The best model was determined to be random forest classifier due to its high accuracy at 90.4% and out of all the models that were run it had the highest precision at 33%. We looked at the precision of the exempted loans because we wanted to limit the false positives. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. The benefits of random forest are it is robust against overfitting, can be used to rank the importance of input variables in a natural way and are robust to outliers and nonlinear data.
+The best model was determined to be the random forest classifier due to its high accuracy at 90.4%. Additionally, out of all the models that were run, it had the highest precision at 33%. We looked at the precision of the exempted loans because we wanted to limit the false positives. The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. The benefits of random forest are its robustness against overfitting, its usefulness in ranking the importance of input variables in a natural way, and its ability to accomodate outliers and nonlinear data.
 
 Below is the Confusion Matrix, Accuracy Score and Classification report from our model. 
 
@@ -112,7 +111,7 @@ despite not receiving the most loans (graph on the right).
 ![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
 
 ### Results 
-**Question:** Can business data and PPP loan data reasonably predict whether a loan will be paid in full or not? 
+**Question:** Can Yelp data and PPP loan data reasonably predict whether a business is in good standing and satisfies the terms of its loan? 
 
 The machine learning model was able to predict loan status with an accuracy of 90.4%; however, the feature importance showed that the yelp data features did not really add much to the machine learning model. Only 2 yelp categories showed up in the top 10 features. That caused us to explore some other aspects of the data. 
 
@@ -120,7 +119,7 @@ The machine learning model was able to predict loan status with an accuracy of 9
 
 As mentioned above, the feature importance showed that the yelp data features did not really add much to the machine learning model. Only 2 yelp categories showed up in the top 10 features. That caused us to explore some other aspects of the data. 
 
-**Question:** Why was the professional services industry granted the largest amount of PPP loans in our dataset?
+**Question:** Why was the professional services industry granted the largest amount of PPP loans in our dataset? What are the implications of this?
 
 It was surprising to find that professional services accounted for the highest amount of loan dollars, but further research showed that this was not unique to Denver. Our research showed that business and professional services firms across the country borrowed more PPP loans than all but four segments of the U.S. economy. According to this [article](https://realeconomy.rsmus.com/ppp-loan-data-business-professional-services), "Industry executives took advantage of federal assistance in an effort to maintain their capabilities and client relationships by retaining their people."
 
