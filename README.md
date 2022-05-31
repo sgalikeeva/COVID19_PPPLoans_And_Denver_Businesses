@@ -149,7 +149,7 @@ Loan Amount by Business
 
 Map of loans by location and size
 
-![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/LoansByLocationMap.png)
+![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/Map.png)
 
 Plots by industry
 ![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
