@@ -106,8 +106,7 @@ While exploring the data and beginning to create our visualizations, we were sup
 
 * Average PPP loan of law firms: $198,223
 
-The graphs below show these stats in action.  The graph on the left shows that  the professional services industry did receive the highest amount of loans
-despite not receiving the most loans (graph on the right).
+The graphs below show these stats in action.  The graph on the left shows that  the professional services industry did receive the highest amount of loans despite not receiving the most loans (graph on the right).
 ![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
 
 ### Results 
@@ -124,11 +123,12 @@ As mentioned above, the feature importance showed that the yelp data features di
 It was surprising to find that professional services accounted for the highest amount of loan dollars, but further research showed that this was not unique to Denver. Our research showed that business and professional services firms across the country borrowed more PPP loans than all but four segments of the U.S. economy. According to this [article](https://realeconomy.rsmus.com/ppp-loan-data-business-professional-services), "Industry executives took advantage of federal assistance in an effort to maintain their capabilities and client relationships by retaining their people."
 
 ### Lessons Learned
-[ADD ANSWER]
+
 Machine learning is not the end all be all. It did not tell us the full data story.  For example, our ML model did not show category as being an important feature, but our visualization showed a much different picture. 
 
 ### Future Analysis
-[ADD ANSWER]
+
+Future analysis could focus on whether fraud can be detected from the data.  
 
 ## Dashboard
 ### Final Presentation
