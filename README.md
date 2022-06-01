@@ -157,5 +157,5 @@ Map of loans by location and size
 
 ![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/Map.png)
 
-Plots by industry
-![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/PlotsByIndustry.png)
+Loan Amounts and Counts by Industry
+![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/loanamtbyindustryvjobs.png)
