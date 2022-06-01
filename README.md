@@ -122,6 +122,8 @@ As mentioned above, the feature importance showed that the yelp data features di
 
 It was surprising to find that professional services accounted for the highest amount of loan dollars, but further research showed that this was not unique to Denver. Our research showed that business and professional services firms across the country borrowed more PPP loans than all but four segments of the U.S. economy. According to this [article](https://realeconomy.rsmus.com/ppp-loan-data-business-professional-services), "Industry executives took advantage of federal assistance in an effort to maintain their capabilities and client relationships by retaining their people."
 
+Through our data exploration, machine learning and further analysis, we were able to find the answers to our questions and see the impact of COVID-19 on the Denver metro area and its businesses. 
+
 ### Lessons Learned
 
 Machine learning is not the end all be all. It did not tell us the full data story.  For example, our ML model did not show category as being an important feature, but our visualization showed a much different picture. 
