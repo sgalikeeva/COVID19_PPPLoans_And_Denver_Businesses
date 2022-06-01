@@ -151,7 +151,7 @@ We have various interactive elements on our Tableau dashboard including a map of
 
 Loan Amount by Business 
 
-![Loan Amount by Business](https://github.com/ereekaj/Final_Project/blob/main/Images/LoanAmtByBusiness.png)
+![Loan Amount by Business](https://github.com/ereekaj/Final_Project/blob/main/Images/LoanAmtbyBixetc.png)
 
 Map of loans by location and size
 
