@@ -128,6 +128,10 @@ Through our data exploration, machine learning and further analysis, we were abl
 
 Machine learning is not the end all be all. It did not tell us the full data story.  For example, our ML model did not show category as being an important feature, but our visualization showed a much different picture. 
 
+There is always more to be explored. In this case, we realized we could have asked more questions about potentially fraudulent loans and discovered ways to identify them in our model.
+
+Data visualizations and conclusions, while impactful, are merely the results of extensive data exploration, cleaning, and curiosity.
+
 ### Future Analysis
 
 Future analysis could focus on whether fraud can be detected from the data.  
