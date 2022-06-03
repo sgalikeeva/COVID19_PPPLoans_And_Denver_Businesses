@@ -1,5 +1,11 @@
 # Denver Businesses and PPP Loans
 
+## Group Members
+* Erika Armani
+* Sasha Galikeeva
+* Jamie Thompson
+* Dylan Vowell
+
 ## Selected topic
 Denver Businesses and PPP Loans
 
