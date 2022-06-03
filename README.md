@@ -4,7 +4,7 @@
 * [Erika Armani](https://www.linkedin.com/in/erikajarmani)
 * [Sasha Galikeeva](https://www.linkedin.com/in/sashagalikeeva/)
 * Jamie Thompson
-* Dylan Vowell
+* [Dylan Vowell](https://www.linkedin.com/in/dylan-vowell-ba6200a6/)
 
 ## Selected topic
 Denver Businesses and PPP Loans
