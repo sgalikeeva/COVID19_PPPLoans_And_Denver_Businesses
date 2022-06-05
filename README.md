@@ -3,7 +3,7 @@
 ## Group Members
 * [Erika Armani](https://www.linkedin.com/in/erikajarmani)
 * [Sasha Galikeeva](https://www.linkedin.com/in/sashagalikeeva/)
-* Jamie Thompson
+* [Jamie Thompson] (https://www.linkedin.com/in/jamie-thompson-0514b621a/)
 * [Dylan Vowell](https://www.linkedin.com/in/dylan-vowell-ba6200a6/)
 
 ## Selected topic
