@@ -166,4 +166,4 @@ Map of loans by location and size
 ![Loans by location map](Images/DenverMap.png)
 
 Loan Amounts and Counts by Industry
-![plots by industry](Images/Count_Comparison.png)
+![plots by industry](Images/Count_compare.png)
