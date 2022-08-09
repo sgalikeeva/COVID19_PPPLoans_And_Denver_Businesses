@@ -151,19 +151,19 @@ Our final presentation is available on Google Slides at this [link](https://docs
 
 ### Description of the tools used to create the final dashboard
 
-We used Tableau to [visualize our data](https://public.tableau.com/app/profile/dylan1351/viz/PPPLoanAnalysis/Story1).
+We used Tableau to [visualize our data](https://public.tableau.com/app/profile/sasha.galikeeva/viz/DenverBusinessesandPPPLoans/DenverBusinessesandPPPLoans).
 
 ### Description of interactive element
 
-We have various interactive elements on our Tableau dashboard including a map of businesses and various plots showing size of loan, types of businesses and other features.  Users are able to change views and hover over data points to get additional information from the map and plots. Click on the [tableau link](https://public.tableau.com/app/profile/dylan1351/viz/PPPLoanAnalysis/Story1) to see the dashboard in action or refer to the screenshots below.
+We have various interactive elements on our Tableau dashboard including a map of businesses and various plots showing size of loan, types of businesses and other features.  Users are able to change views and hover over data points to get additional information from the map and plots. Click on the [tableau link](https://public.tableau.com/app/profile/sasha.galikeeva/viz/DenverBusinessesandPPPLoans/DenverBusinessesandPPPLoans) to see the dashboard in action or refer to the screenshots below.
 
 Loan Amount by Business 
 
-![Loan Amount by Business](https://github.com/ereekaj/Final_Project/blob/main/Images/LoanAmtbyBixetc.png)
+![Loan Amount by Business](Images/Tile_Average.png)
 
 Map of loans by location and size
 
-![Loans by location map](https://github.com/ereekaj/Final_Project/blob/main/Images/Map.png)
+![Loans by location map](Images/DenverMap.png)
 
 Loan Amounts and Counts by Industry
-![plots by industry](https://github.com/ereekaj/Final_Project/blob/main/Images/loanamtbyindustryvjobs.png)
+![plots by industry](Images/Count_Comparison.png)
